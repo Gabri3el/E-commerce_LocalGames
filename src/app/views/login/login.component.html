@@ -1,0 +1,106 @@
+<div class="imagemDeFundo">
+    <mat-toolbar  class="toolbar">
+
+        <mat-toolbar-row>
+            <span class="title" routerLink="" routerLinkActive="active">LOCAL-GAMES</span>
+            <span class="example-spacer"></span>
+            <div class="example-button-row">
+                <button class="button-login" mat-raised-button routerLink="/login" routerLinkActive="active">Login / Register</button>
+            </div>
+            <button class="button-icon-cart"><mat-icon class="icon">shopping_cart</mat-icon></button>
+        </mat-toolbar-row>
+
+    </mat-toolbar>   
+
+    <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="space-between" class="herocontent">
+              <div class="content-1"><mat-icon>games</mat-icon>Playstation </div>
+              <div class="content-2"><mat-icon>games</mat-icon>Xbox </div>
+              <div class="content-3"><mat-icon>games</mat-icon>Pc</div>
+              <div class="content-4"><mat-icon>games</mat-icon>Nintendo</div>
+    </div>
+</div>
+
+<div class="indentificacao">
+    <h1>Indentificação <span>Faça seu Login ou cadastre-se agora mesmo.</span></h1>
+    <section class="example-section">
+        <mat-progress-bar mode="determinate" value="100"></mat-progress-bar>
+    </section>
+</div>
+
+<div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="space-between" class="limparDiv">
+    <div class="login">
+        <h3>Tenho cadastro / <span class="gold">Sou Gold</span></h3>
+        <hr>
+        <form class="formulario">
+            <label for="email">E-mail:</label>
+            <input [(ngModel)]="RequestLogin.login" type="text" class="email">
+            <br>
+            <label for="senha">Senha:</label>
+            <input [(ngModel)]="RequestLogin.password" type="password">
+            <button (click)="doLogin()"> Entrar</button> 
+        </form>
+        <br>
+        <a href="/">Esqueceu a senha?</a>
+    </div>
+    <br class="limparDiv">
+    <div class="register">
+        <h3>Quero me cadastrar / Quero ser <span class="gold">Gold</span></h3>
+        <hr>
+        <form class="formulario">
+            <label for="email">E-mail:</label>
+            <input type="text">
+            <button>Cadastrar</button>
+        </form>
+    </div>
+</div>
+
+
+<div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="space-between" class="news">
+    <h1>Assine nossas noticias por e-mail.</h1>
+    <form class="formulario">
+        <label for="email">E-mail:</label>
+        <input type="text">
+        <button>Enviar</button>
+    </form>
+</div>
+
+<div fxLayout="row" fxLayoutAlign="start" fxLayout.lt-sm="column" class="footerdiv">
+    <div class="footer">
+      <h1>Institucional</h1>
+      <hr>
+      <p>Sobre a LocalGames</p>
+      <p>Nossos Planos</p>
+      <p>Formas de Pagamentos</p>
+      <p>Novidades</p>
+    </div>
+    <div class="footer">
+      <h1>Redes Sociais</h1>
+      <hr>
+      <mat-icon color="primary">facebook</mat-icon><p>Facebook</p>
+      <mat-icon color="primary">signal_cellular_alt</mat-icon><p>Twitter</p>
+      <mat-icon color="dark">smartphone</mat-icon><p>Instagram</p>
+    </div>
+
+    <div class="footer">
+      <h1>Contato</h1>
+      <hr>
+      <div class="whatsapp"><mat-icon class="whatsapp-icon">perm_phone_msg</mat-icon><p>Whatsapp: (13)99999-9999</p></div>
+      <mat-icon color="light">alternate_email</mat-icon><a href="mailto:someone@outlook.com.br">Enviar E-mail para nós</a>
+    </div>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="start" fxLayout.lt-sm="column">
+    <div class="formasPagamento">
+      <h2>Formas de pagamento:</h2>
+      <img src="../../../assets/pagamento1.png" class="pagamento">
+      <img src="../../../assets/pagamento2.jpg" class="pagamento">
+      <img src="../../../assets/pagamento3.png" class="pagamento">
+      <img src="../../../assets/pagamento4.jpg" class="pagamento">
+    </div>
+    <div class="developer">
+      <h1>Desenvolvido por: <span class="gold">Gabriel Merino Dos Santos</span></h1>
+      <a href="www.github.com/Gabri3el"> Meu GitHub</a>
+      <br>
+      <cite>"Usado Angular cli 11, com Angular Material,Flex Layout e Bootstrap"</cite>
+    </div>
+  </div>

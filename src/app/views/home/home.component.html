@@ -1,0 +1,186 @@
+
+<div class="imagemDeFundo">
+    <mat-toolbar  class="toolbar">
+
+        <mat-toolbar-row>
+            <span class="title">LOCAL-GAMES</span>
+            <span class="example-spacer"></span>
+            <div class="example-button-row">
+                <button class="button-login" mat-raised-button routerLink="/login">Login / Register</button>
+            </div>
+            <button class="button-icon-cart"><mat-icon class="icon">shopping_cart</mat-icon></button>
+        </mat-toolbar-row>
+    </mat-toolbar>   
+
+    <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="space-between" class="herocontent">
+              <div class="content-1"><mat-icon>games</mat-icon>Playstation </div>
+              <div class="content-2"><mat-icon>games</mat-icon>Xbox </div>
+              <div class="content-3"><mat-icon>games</mat-icon>Pc</div>
+              <div class="content-4"><mat-icon>games</mat-icon>Nintendo</div>
+    </div>
+
+    <div>
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img class="carousel" [src]="images[0]" alt="Random first slide">
+              </div>
+              <div class="carousel-caption">
+                  <h1 class="carousel-caption-title">Outriders</h1>
+                  <p>Em março..</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img class="carousel" [src]="images[1]" alt="Random second slide">
+              </div>
+              <div class="carousel-caption">
+               <h1 class="carousel-caption-disponivel">Counter Strike Global Offensive (STEAM / PC)</h1>
+               <p>Apenas R$ 39,90 no <span>plano Gold</span></p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img class="carousel" [src]="images[2]" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h1 class="carousel-caption-disponivel2">Destiny 2 (Versões PS4 / XBOX ONE)</h1>
+                <p>Apenas R$ 39,90 no <span>plano Gold</span></p> 
+              </div>
+            </ng-template>
+          </ngb-carousel>
+    </div>
+
+
+    <mat-card class="card-pre">
+        <mat-card-content>
+          <h2 class="example-h2">Novidades/Recém chegados</h2>
+          <section class="example-section">
+            <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+          </section>
+        </mat-card-content>
+
+        <mat-card class="class1">
+        <mat-card-header>
+            <mat-card-title class="title-1">Destiny 2</mat-card-title>
+            <mat-card-subtitle class="sub-playstation">Playstation 4</mat-card-subtitle>
+          </mat-card-header>
+          <img src="../../../assets/jogo1.jpg" width="400px" alt="Photo of a destiny">
+          <mat-card-content>
+            <p class="card-content1">
+              Destiny 2 é um jogo eletrônico de tiro em primeira pessoa multijogador desenvolvido pela Bungie e publicado pela Activision. Foi lançado para PlayStation 4 em 6 de setembro de 2017, É a continuação de Destiny e de suas expansões subsequentes.
+            </p>
+            <br>
+            <p>Alugue já.</p>
+            <br>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button class="button-playstation">Alugar</button>
+            <button mat-button class="button-card"> <mat-icon class="icon">shopping_cart</mat-icon>Adicionar ao Carrinho.</button>
+          </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="class1">
+            <mat-card-header>
+              <mat-card-title class="title-1">Gears 5</mat-card-title>
+              <mat-card-subtitle class="sub-xbox">Xbox One / Xbox Series s/x</mat-card-subtitle>
+            </mat-card-header>
+            <img src="../../../assets/jogo2.jpg" width="300px" height="250px" alt="Photo of a Gears5">
+            <mat-card-content>
+              <p class="card-content1">
+                Gears 5 é um jogo eletrônico de tiro em terceira pessoa desenvolvido pela The Coalition e publicado pela Xbox Game Studios. Foi lançado em 6 de setembro de 2019 para Xbox One e Windows 10 como parte do Xbox Play Anywhere. É o sexto título da série Gears of War e a continuação de Gears of War 4.          </p>
+              <p>Alugue já.</p>
+              <br>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button class="button-xbox">Alugar</button>
+              <button mat-button class="button-card"> <mat-icon class="icon">shopping_cart</mat-icon>Adicionar ao Carrinho.</button>
+            </mat-card-actions>
+        </mat-card>
+
+
+        <mat-card class="class1">
+            <mat-card-header>
+              <mat-card-title class="title-1">Super Mario Odyssey</mat-card-title>
+              <mat-card-subtitle class="sub-nintendo">Nintendo Switch</mat-card-subtitle>
+            </mat-card-header>
+            <img src="../../../assets/jogo3.jpg" width="300px" height="260px" alt="Photo of a Gears5">
+            <mat-card-content>
+              <p class="card-content1">
+                Super Mario Odyssey é um jogo de plataforma desenvolvido pela Nintendo Entertainment Planning & Development e publicado pela Nintendo. Foi lançado mundialmente em 27 de outubro de 2017 exclusivamente para o Nintendo Switch.
+                <p>Alugue já.</p>
+                <br>
+                <br>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button class="button-nintendo">Alugar</button>
+              <button mat-button class="button-card"> <mat-icon class="icon">shopping_cart</mat-icon>Adicionar ao Carrinho.</button>
+            </mat-card-actions>
+        </mat-card>
+
+    </mat-card>
+
+
+
+
+
+    
+
+    
+    <div class="clear">
+
+    </div>
+    <div class="banner">
+        <mat-card class="banner">
+            <h1 class="title-banner">Seja <span>Gold</span> Hoje mesmo</h1>
+            <p class="p-banner">Por apenas R$ 39,90</p>
+            <p class="p-banner">Você tem acesso a +500 jogos de diversas plataformas(Playstation, Xbox, Nintendo Switch e PC). Jogue agora mesmos
+                os lançamentos de sua plataforma preferida. 
+            </p>
+            <img class="img-banner" src="../../../assets/banner.png">
+            <button class="button-banner"><span>Assine Já</span></button>
+        </mat-card>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="start" fxLayout.lt-sm="column" class="footerdiv">
+      <div class="footer">
+        <h1>Institucional</h1>
+        <hr>
+        <p>Sobre a LocalGames</p>
+        <p>Nossos Planos</p>
+        <p>Formas de Pagamentos</p>
+        <p>Novidades</p>
+      </div>
+      <div class="footer">
+        <h1>Redes Sociais</h1>
+        <hr>
+        <mat-icon color="primary">facebook</mat-icon><p>Facebook</p>
+        <mat-icon color="primary">signal_cellular_alt</mat-icon><p>Twitter</p>
+        <mat-icon color="dark">smartphone</mat-icon><p>Instagram</p>
+      </div>
+
+      <div class="footer">
+        <h1>Contato</h1>
+        <hr>
+        <div class="whatsapp"><mat-icon class="whatsapp-icon">perm_phone_msg</mat-icon><p>Whatsapp: (13)99999-9999</p></div>
+        <mat-icon color="light">alternate_email</mat-icon><a href="mailto:someone@outlook.com.br">Enviar E-mail para nós</a>
+      </div>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="start" fxLayout.lt-sm="column">
+      <div class="formasPagamento">
+        <h2>Formas de pagamento:</h2>
+        <img src="../../../assets/pagamento1.png" class="pagamento">
+        <img src="../../../assets/pagamento2.jpg" class="pagamento">
+        <img src="../../../assets/pagamento3.png" class="pagamento">
+        <img src="../../../assets/pagamento4.jpg" class="pagamento">
+      </div>
+
+      <div class="developer">
+        <h1>Desenvolvido por: <span>Gabriel Merino Dos Santos</span></h1>
+        <a href="www.github.com/Gabri3el"> Meu GitHub</a>
+        <br>
+        <cite>"Usado Angular cli 11, com Angular Material,Flex Layout e Bootstrap"</cite>
+      </div>
+    </div>
+    

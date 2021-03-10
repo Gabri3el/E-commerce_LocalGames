@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+div{
+    background-color: black;
+}
+.example-icon {
+    padding: 0 14px;
+}
+  .example-spacer {
+    flex: 1 1 auto;
+}
+
+.toolbar{
+    background-color: black;
+}
+
+.title{
+    color:#fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.example-button-row button{
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.button-login{
+    border-radius: 6px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.button-login:hover{
+    background-color: blue;
+    color:black;
+}
+
+.button-icon-cart{
+    background-color: black ;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+.button-icon-cart:hover{
+    background-color: blue;
+    color: black;
+}
+.icon{
+    cursor: pointer;
+    
+}
+
+/* Hero Content*/
+
+.herocontent{
+    width: 100%;
+}
+
+.content{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: start;
+    padding-top: 15px;
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.content-1{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-1:hover{
+    background-color: blue;
+    color:#fff;
+}
+
+.content-2{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-2:hover{
+    background-color: green;
+}
+
+.content-3{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-3:hover{
+    background-color: grey;
+}
+
+.content-4{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-4:hover{
+    background-color: red;
+}
+
+
+/*LOGIN/REGISTER*/
+
+.limparDiv{
+    background-color: white;
+}
+
+.indentificacao{
+    background-color: white;
+    padding: 50px;
+}
+
+.indentificacao h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+.indentificacao span{
+    font-size: 8px;
+}
+hr{
+    border: 2px solid red;
+    width: 100%
+}
+
+
+.login{
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 220px;
+    border-right: 1px solid red;
+}
+
+.login h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+}
+
+.register{
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 220px;
+    padding-top: 10px;
+    border-left: 5px solid red;
+}
+
+.register h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 7px;
+}
+
+.formulario{
+    font-family: 'Press Start 2P',cursive;
+    font-size: 9px;
+}
+
+.formulario input{
+    background-color: #f2f2f2;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding:5px;
+}
+
+.email{
+    width: 250px;
+}
+
+.formulario button{
+    background-color: blue;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.formulario button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid blue;
+}
+
+
+
+/* NEWSSSS */
+
+.news{
+    color: white;
+}
+
+.news input{
+    margin-top: 200px;
+}
+
+.news h1{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.enviarNews{
+    padding-left: 1000px ;
+}
+
+
+
+/*FOOTER WEBSITE*/
+
+
+
+.footerdiv{
+    background-color: white;
+}
+
+.footer{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 50px;
+    margin: 0px 70px 0px 50px;
+}
+
+.footer h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+
+.whatsapp{
+    background-color: red;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #fff;    
+}
+
+.whatsapp:hover{
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
+}
+
+.whatsapp-icon{
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: #f00
+}
+
+a:active {
+	text-decoration: none
+}
+
+hr{
+    border: 1px solid red;
+
+}
+
+.formasPagamento h2{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 10px;
+}
+
+.pagamento{
+    width: 80px;
+    height: 55px;
+    padding: 10px;
+}
+
+.developer{
+    color: #fff;
+    padding-left: 300px;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 6px;
+}
+
+.developer h1{
+    font-family: 'Press Start 2P',cursive;
+    font-size: 10px;
+}
+
+.developer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.developer:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.gold{
+    color: gold;
+}

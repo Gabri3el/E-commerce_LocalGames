@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+div{
+    background-color: black;
+}
+.example-icon {
+    padding: 0 14px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+.toolbar{
+    background-color: black;
+}
+
+.title{
+    color:#fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.example-button-row button{
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.button-login{
+    border-radius: 6px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.button-login:hover{
+    background-color: blue;
+    color:black;
+}
+
+.button-icon-cart{
+    background-color: black ;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+.button-icon-cart:hover{
+    background-color: blue;
+    color: black;
+}
+.icon{
+    cursor: pointer;
+    
+}
+
+/* Hero Content*/
+
+.imagemDeFundo{
+    background-color: black;
+    height: 100%;  
+}
+
+.herocontent{
+    background-color: black;
+    width: 100%;
+}
+
+.content{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: start;
+    padding-top: 15px;
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.content-1{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-1:hover{
+    background-color: blue;
+    color:#fff;
+}
+
+.content-2{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-2:hover{
+    background-color: green;
+}
+
+.content-3{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-3:hover{
+    background-color: grey;
+}
+
+.content-4{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 20px;
+    flex: auto;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.content-4:hover{
+    background-color: red;
+}
+
+
+
+
+.titulonews span{
+    color: gold;
+}
+
+
+/* CARD */
+
+.card-content1{
+    max-width: 400px;
+}
+
+.class1{
+    margin: 20px;
+    float: left;
+    max-width: 395px;
+    max-height: 600px;
+}
+
+.example-card {
+    float: left;
+    max-width: 100%;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+  }
+
+  
+.title-1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+}
+.sub-playstation{
+    color:blue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+
+}
+
+.image1{
+    background-image: url('../../../assets/jogo1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+.background-div{
+    background-color: black;
+}
+
+.button-playstation{
+    background-color: blue;
+}
+
+.button-playstation:hover{
+    background-color: #fff;
+    color: blue;
+}
+
+.example-card2 {
+    float: left;
+    max-width: 450px;
+    max-height: 620px;
+    height: 520px;
+    background-color: black;
+    color: #fff;
+  }
+  
+.sub-xbox{
+    color:green;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+}
+
+.button-xbox{
+    background-color: green;
+}
+
+.button-xbox:hover{
+    background-color: #fff;
+    color: green;
+}
+
+
+.example-card3 {
+    float: left;
+    max-width: 448px;
+    max-height: 620px;
+    height: 520px;
+    background-color: black;
+    color: #fff;
+  }
+  
+
+.sub-nintendo{
+    color:red;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+}
+
+.button-nintendo{
+    background-color: red;
+}
+
+.button-nintendo:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.button-card:hover{
+    background-color: #fff;
+    color: black;
+}
+
+img{
+    border-radius: 10px;
+    width: 250px;
+}
+
+.example-h2 {
+    margin: 10px;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 10px;
+  }
+  
+  .example-margin {
+    margin: 0 10px;
+  }
+
+.card-pre{
+    color: #fff;
+    background-color: black;
+}
+
+
+.example-card4 {
+    float: left;
+    max-width: 450px;
+    max-height: 620px;
+    height: 520px;
+    background-color: black;
+    color: #fff;
+  }
+
+.cs{
+    height: 240px;
+}
+
+.sub-pc{
+    color:grey;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 8px;
+}
+
+.button-pc{
+    background-color: grey;
+}
+
+.button-pc:hover{
+    background-color: #fff;
+    color: grey;
+}
+
+.picsum-img-wrapper{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.carousel{
+    background-size: cover;
+    width: 100%;
+    max-height: 450px;
+}
+
+.carousel-caption{
+    font-family: 'Press Start 2P',cursive;
+}
+
+.carousel-caption-title{
+    color: gold;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 50px;
+}
+
+.carousel-caption-disponivel{
+    font-family: 'Press Start 2P',cursive;
+    color:white;
+}
+
+span{
+    color: gold;
+}
+
+.carousel-caption-disponivel2{
+    color:white;
+    font-family: 'Press Start 2P',cursive;
+}
+
+.clear{
+    clear: both;
+}
+
+.mat-grid-tile {
+    clear: both;
+    background: white;
+}
+
+/* banner end */
+
+.banner{
+    background-color: black;
+    color: #fff;
+}
+
+.title-banner{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.p-banner{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+.button-banner{
+    background: black;
+    display: block;
+    border-style: outset;
+    border-color: gold;
+    height: 50px;
+    width: 100px;
+    text-shadow: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.button-banner:hover{
+    background-color: gold;
+    color: #fff;
+    border-color:#fff;
+}
+
+.img-banner{
+    width: 100%;
+    height: 400px;
+}
+
+.footerdiv{
+    background-color: white;
+}
+
+.footer{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 50px;
+    margin: 0px 70px 0px 50px;
+}
+
+.footer h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+
+.whatsapp{
+    background-color: red;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #fff;    
+}
+
+.whatsapp:hover{
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
+}
+
+.whatsapp-icon{
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: #f00
+}
+
+a:active {
+	text-decoration: none
+}
+
+hr{
+    border: 1px solid red;
+
+}
+
+.formasPagamento h2{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 10px;
+}
+
+.pagamento{
+    width: 80px;
+    height: 55px;
+    padding: 10px;
+}
+
+
+
+
+.developer{
+    color: #fff;
+    padding-left: 300px;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 6px;
+}
+
+.developer h1{
+    font-family: 'Press Start 2P',cursive;
+    font-size: 10px;
+}
+
+.developer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.developer:hover{
+    background-color: black;
+    color: white;
+}
